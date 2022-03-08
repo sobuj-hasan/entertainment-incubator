@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- <html lang="ar" dir="rtl"> -->
+
+<head>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Title-->
+    <title>Vart page | Safety Incubators</title>
+    <!-- Favicon-->
+    <link rel="icon" href="assets/img/" type="image/gif">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!--    font awsome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--    boostrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <!-- <link rel="stylesheet" href="assets/css/arabic.css"> -->
+</head>
+
+<body class="finance-page">
+
+    <section class="header-top">
+        <div class="container">
+            <div class="row d-flex flex-wrap">
+                <div class="col">
+                    <div class="menubar clearfix">
+                        <ul>
+                            <li>
+                                <span>Follow us: </span>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-instagram"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-pinterest-p"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Sign Up</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--    header-->
+    <header>
+        <!-- mobile menu -->
+        <div id="mobile-menu" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Media Center</a>
+                <a href="#">Events</a>
+                <a href="#">Professional</a>
+                <a href="#">Finance</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+        <!-- end mobile menu -->
+        <div class="container py-2">
+            <div class="row align-items-center">
+                <div class="col-lg-3 clearfix">
+                    <div class="logo d-flex justify-content-between align-items-center">
+                        <a href="index.html">
+                            <img src="assets/img/logo/logo.png" alt="logo">
+                        </a>
+                        <i onclick="openNav()" class="fa fa-bars d-lg-none"></i>
+                    </div>
+                </div>
+                <div class="col-9 d-none d-lg-block">
+                    <div class="menubar clearfix">
+                        <ul>
+                            <li>
+                                <a href="#">Home</a>
+                            </li>
+                            <li>
+                                <a href="#">About</a>
+                            </li>
+                            <li>
+                                <a href="#">Media Center</a>
+                            </li>
+                            <li>
+                                <a href="">Events</a>
+                            </li>
+                            <li>
+                                <a href="#">Professional</a>
+                            </li>
+                            <li>
+                                <a href="#">Finance</a>
+                            </li>
+                            <li>
+                                <a href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--    header end-->
+
+    <!-- Cart page part start -->
+    <section class="cart-page py-5">
+        <div class="container cart-bg p-4">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <div class="breab text-start text-dark py-3">
+                        <a class="text-dark" href="https://demo.spincu.com">Home</a>&nbsp;<span> &gt; </span>&nbsp; <a
+                            class="text-dark" href="https://demo.spincu.com/shop">Shop Again</a>
+                    </div>
+                    <h5 class="py-3">SHOPPING CART INFORMATION</h5>
+                </div>
+            </div>
+            <div class="row py-5">
+                <div class="col-12">
+                    <form action="https://demo.spincu.com/update/cart" method="post">
+                        <input type="hidden" name="_token" value="XIMUK0ZbWPYRnHNuEfSRdv6pLVwMSyWUZFb4La78">
+                        <table class="table table-responsive">
+                            <thead>
+                                <tr>
+                                    <th>S.N</th>
+                                    <th>Image</th>
+                                    <th>Product name</th>
+                                    <th>Quantity</th>
+                                    <th>Sub Total</th>
+                                    <th>Total Discount($)</th>
+                                    <th>Total Amount</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="hide-11">
+                                    <td>1</td>
+                                    <td>
+                                        <img width="50" src="assets/img/products/2.jpg" alt="">
+                                    </td>
+                                    <td>CCTV Camera Shorts 8187</td>
+                                    <td>
+                                        <div class="value-button" id="decrease" onclick="decreaseValue(0, 50.00, 5.00)"
+                                            value="Decrease Value">-</div>
+                                        <input type="number" id="quantity" class="quantity-0" value="1">
+                                        <div class="value-button" id="increase" onclick="increaseValue(0, 50.00, 5.00)"
+                                            value="Increase Value">+</div>
+                                    </td>
+                                    <td>$50.00</td>
+    
+    
+                                    <td>$<span id="total-0">45.00</span></td>
+    
+                                    <td>$<span id="total_discount-0">5</span></td>
+    
+                                    <td>
+                                        <button type="button" onclick="deleteCartProduct(11)"
+                                            class="btn btn-danger btn-sm"><i class="fa fa-window-close"></i></button>
+                                    </td>
+                                </tr>
+
+                                <tr class="hide-11">
+                                    <td>2</td>
+                                    <td>
+                                        <img width="50" src="assets/img/products/4.jpg" alt="">
+                                    </td>
+                                    <td>Product name 8187</td>
+                                    <td>
+                                        <div class="value-button" id="decrease" onclick="decreaseValue(0, 50.00, 5.00)" value="Decrease Value">-</div>
+                                        <input type="number" id="quantity" class="quantity-0" value="1">
+                                        <div class="value-button" id="increase" onclick="increaseValue(0, 50.00, 5.00)" value="Increase Value">+</div>
+                                    </td>
+                                    <td>$50.00</td>
+                                
+                                
+                                    <td>$<span id="total-0">45.00</span></td>
+                                
+                                    <td>$<span id="total_discount-0">5</span></td>
+                                
+                                    <td>
+                                        <button type="button" onclick="deleteCartProduct(11)" class="btn btn-danger btn-sm"><i
+                                                class="fa fa-window-close"></i></button>
+                                    </td>
+                                </tr>
+
+                                <tr class="hide-11">
+                                    <td>3</td>
+                                    <td>
+                                        <img width="50" src="assets/img/products/3.jpg" alt="">
+                                    </td>
+                                    <td>Product name here Shorts 8187</td>
+                                    <td>
+                                        <div class="value-button" id="decrease" onclick="decreaseValue(0, 50.00, 5.00)" value="Decrease Value">-</div>
+                                        <input type="number" id="quantity" class="quantity-0" value="1">
+                                        <div class="value-button" id="increase" onclick="increaseValue(0, 50.00, 5.00)" value="Increase Value">+</div>
+                                    </td>
+                                    <td>$50.00</td>
+                                
+                                
+                                    <td>$<span id="total-0">45.00</span></td>
+                                
+                                    <td>$<span id="total_discount-0">5</span></td>
+                                
+                                    <td>
+                                        <button type="button" onclick="deleteCartProduct(11)" class="btn btn-danger btn-sm"><i
+                                                class="fa fa-window-close"></i></button>
+                                    </td>
+                                </tr>
+    
+                                <input type="hidden" name="cartId[11]" class="quantity-0" value="1">
+    
+    
+                            </tbody>
+                        </table>
+    
+                        <div class="text-end mt-5">
+                            <button class="custom-btn">Update Cart</button>
+                        </div>
+    
+                        <div class="row justify-content-end pt-4">
+                            <div class="col-12 col-sm-5">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h6>Pricing</h6>
+                                        <hr>
+                                        <div class="row d-flex flex-wrap justify-content-between">
+                                            <div class="col">
+                                                <p class="float-start d-inline-block">Total Price($)</p>
+                                            </div>
+                                            <div class="col">
+                                                <p class="float-end d-inline-block">$50</p>
+                                            </div>
+                                        </div>
+                                        <div class="row d-flex flex-wrap justify-content-between">
+                                            <div class="col">
+                                                <p class="float-start d-inline-block">Total Discount($)</p>
+                                            </div>
+                                            <div class="col">
+                                                <p class="float-end d-inline-block">$45</p>
+                                            </div>
+                                        </div>
+                                        <div class="row d-flex flex-wrap justify-content-between">
+                                            <div class="col">
+                                                <p class="float-start d-inline-block">Payable Amount($)</p>
+                                            </div>
+                                            <div class="col">
+                                                <p class="float-end d-inline-block">$5</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 text-end mt-4">
+                                <a class="custom-btn" href="#">Back To Home</a>
+                                <a class="custom-btn" href="#">Process to checkout</a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Cart pge part end -->
+
+    <!-- Footer top -->
+    <section id="footer-top" class="py-5 m">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-3">
+                    <div class="footer-content-2">
+                        <h5 class="text-uppercase">about</h5>
+                        <ul class="content">
+                            <li>
+                                <a href="#">Contact</a>
+                            </li>
+                            <li>
+                                <a href="#">Acctounts</a>
+                            </li>
+                            <li>
+                                <a href="#">FAQ’s</a>
+                            </li>
+                            <li>
+                                <a href="#">Privecy Policy</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-content-2 info">
+                        <h5 class="text-uppercase">Information</h5>
+                        <ul class="content">
+                            <li>
+                                <a href="#">+9960551175959 </a>
+                            </li>
+                            <li>
+                                <a href="#">Info@safetyincu.com</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3">
+                    <div class="footer-content-2">
+                        <h5 class="text-uppercase">Support link</h5>
+                        <ul class="content">
+                            <li>
+                                <a href="#">Professional</a>
+                            </li>
+                            <li>
+                                <a href="#">Events</a>
+                            </li>
+                            <li>
+                                <a href="#">Leader’s </a>
+                            </li>
+                            <li>
+                                <a href="#">Finances</a>
+                            </li>
+                            <li>
+                                <a href="#">Administration</a>
+                            </li>
+                            <li>
+                                <a href="#">Media Center</a>
+                            </li>
+                            <li>
+                                <a href="#">About Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 text-center subscribe align-self-center">
+                    <h2>Join with us</h2>
+                    <p>Subscribe to receive updates, access to exclusive deals, and more</p>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control">
+                        <button class="btn text-uppercase" type="button">subscribes</button>
+                    </div>
+
+                    <div class="menubar clearfix">
+                        <ul>
+                            <li>
+                                <span>Follow us: </span>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-instagram"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-pinterest-p"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer top end -->
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row py-4">
+                <div class="col-12 text-center">
+                    <p class="mb-0">@copyright-2021. All right reserved Safety incubator</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--    jquery google host-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!--    boostrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="assets/js/mobile-menu.js"></script>
+
+    <script>
+        function increaseValue(id, sub_total, discount) {
+            var qty = $('.quantity-' + id).val();
+            qty = isNaN(qty) ? 0 : qty;
+            if (qty >= 10)
+                return false
+            qty++;
+            $('.quantity-' + id).val(qty)
+            $('#total_discount-' + id).text(discount * qty)  // Count total discount price
+            var total = sub_total * qty - discount * qty;
+            $('#total-' + id).text(total.toFixed(2))  // Count total price
+        }
+
+        function decreaseValue(id, sub_total, discount) {
+            var qty = $('.quantity-' + id).val();
+            qty = isNaN(qty) ? 0 : qty;
+            if (qty <= 1)
+                return false
+            qty--;
+            $('.quantity-' + id).val(qty)
+            $('#total_discount-' + id).text(discount * qty)  // Count total discount price
+            var total = sub_total * qty - discount * qty;
+            $('#total-' + id).text(total.toFixed(2))  // Count total price
+        }
+
+    </script>
+</body>
+
+</html>
