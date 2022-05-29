@@ -15,6 +15,11 @@ $(document).ready(function() {
         });
     });
 
+    // Sticky Header 
+    $(window).scroll(function () {
+        $('header').toggleClass('scrolled', $(this).fadeIn().scrollTop() > 65);
+    });
+
     $('.product-autoplay-1').slick({
         slidesToShow: 3,
         slidesToScroll: 2,
