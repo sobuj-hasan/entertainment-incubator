@@ -138,6 +138,7 @@ header {
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
+    position: relative;
 }
 
 /* header part end */
@@ -633,7 +634,7 @@ footer p {
 /* About page start */
 
 .about-contact {
-    background: #F2F2F2;
+    background: var(--wc);
 }
 
 .about-contact .content h5 {
@@ -1050,10 +1051,7 @@ input::-webkit-inner-spin-button {
     -webkit-appearance: none;
 }
 
-/* #################################### */
 /* Shop details hover design part start */
-/* #################################### */
-
 
 .shop-part .slider-item .image-design {
     position: relative;
@@ -1097,9 +1095,25 @@ input::-webkit-inner-spin-button {
     border-radius: 50%;
 }
 
-/* #################################### */
 /* Shop details hover design part end */
-/* #################################### */
+
+/* Administration Page CSS START */
+.administration .content h2 {
+    font-size: 42px;
+    line-height: 52px;
+}
+
+.entertainment-facilities{
+    background: var(--wc);
+}
+hr.facilities{
+    background: #CCCCCC;
+    height: 2px;
+}
+
+/* Administration Page CSS END */
+
+
 
 /* Cart page start */
 
